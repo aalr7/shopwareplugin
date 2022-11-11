@@ -1,0 +1,47 @@
+//https://blog.avada.io/css/social-share-buttons
+
+// .button-tick {
+    
+    .button-tick {
+        color:#e46d1e;
+        position: fixed;
+        bottom: 10px;
+        left: 8px;
+        display: block;
+        text-shadow: 0px -1px 1px #bdb5b4, 1px 1px 1px white;
+        width: 60px;
+        height: 60px;
+        background-color: rgba(250, 249, 245, 0.911);
+        border-radius: 50%;
+        box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, .3), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+        // padding: 23px 11px 23px 11px;
+        padding-left: 14px;
+        padding-top: 11px;
+        border: none;
+        font-weight: bolder;
+        font-size: 30px;
+        opacity: 0.4;
+        
+     }
+
+     .button-tick:hover{
+        opacity: 0.9;
+        text-shadow: 0px -1px 1px #bdb5b4, 1px 1px 1px white;
+        background-image: -webkit-linear-gradient(top, #fff, #f4f1ee);
+		background-image: linear-gradient(top, #fff, #f4f1ee);
+        cursor: pointer;
+        transition-delay: 20ms;
+        text-decoration-line: none;
+        text-decoration-color: none;
+     }
+
+     .button-tick:hover:after{
+        color:#f94e66;
+        text-shadow:0px 0px 6px #f94e66;
+    }
+
+    .button-tick:active{
+        background-image: -webkit-linear-gradient(top, #efedec, #f7f4f4);
+        background-image: linear-gradient(top, #efedec, #f7f4f4);
+        box-shadow: 0 3px 5px 0 rgba(0,0,0,.4), inset 0px -3px 1px 1px rgba(204,198,197,.5);
+    }
